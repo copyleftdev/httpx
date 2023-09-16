@@ -1,6 +1,8 @@
-import typing
+# Standard library imports
 from contextlib import contextmanager
+import typing
 
+# Internal module imports
 from ._client import Client
 from ._config import DEFAULT_TIMEOUT_CONFIG
 from ._models import Response
@@ -16,8 +18,9 @@ from ._types import (
     RequestFiles,
     TimeoutTypes,
     URLTypes,
-    VerifyTypes,
+    VerifyTypes  # Assuming 'Ver' was a prefix of 'VerifyTypes'
 )
+
 
 
 def request(
